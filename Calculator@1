@@ -1,0 +1,71 @@
+# Using  functions creating a calculator 
+
+def add(n,m):
+    return n+m
+
+def sub(n,m):
+    return n-m
+
+def mul(n,m):
+    return n*m
+
+def div(n,m):
+    return n/m
+
+def power(n,m):
+    return n**m
+
+print("+. means add")
+print("-. means sub")
+print("*. means mul")
+print("/. means div")
+print("**. means power")
+
+user_choice=input("Select a Operator:")
+
+num1=int(input("Enter a first number:"))
+num2=int(input("Enter a second number:"))
+
+
+if(user_choice=="+"):
+    print("adding num1+num2:",add(num1,num2))
+elif(user_choice == "-"):
+    print("num1-num2:",sub(num1,num2))
+elif(user_choice == "*"):
+    print("num1*num2:",mul(num1,num2))
+elif(user_choice == "/"):
+    print("num1/num2:",div(num1,num2))
+elif(user_choice == "**"):
+    print("num1**num2:",power(num1,num2))
+else:
+    print("Invalid Operator ")
+
+
+                             #Creating a calculator using python
+
+                                     # without using functions
+
+print("+. means add")
+print("-. means sub")
+print("*. means mul")
+print("/. means division")
+print("**. means power")
+
+user_choice=input("Select a Operator:")
+
+num1=int(input("Enter a first number:"))
+num2=int(input("Enter a second number:"))
+
+
+if(user_choice=="+"):
+    print(num1+num2)
+elif(user_choice == "-"):
+    print(num1-num2)
+elif(user_choice == "*"):
+    print(num1*num2)
+elif(user_choice == "/"):
+    print(num1/num2)
+elif(user_choice == "**"):
+    print(num1**num2)
+else:
+    print("Invalid Operator ")
